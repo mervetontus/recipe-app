@@ -5,9 +5,117 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(229, 255, 236);
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  background-color: rgb(204, 242, 255);
+  text-align: center;
+  color: rgb(255, 153, 153);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
 }
+
+.navbar{
+ padding: 10px 20px;
+ text-align: center;
+ background-color: rgb(255, 229, 229);
+ border-radius: 3px;
+}
+
+.navbar h1{
+  margin: 10px 0;
+}
+
+.recipe-list{
+  margin: 20px;
+  padding: 10px;
+}
+.recipe-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+.recipe-list li{
+  background: rgb(255, 229, 229, 0.8);
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.recipe-list li:hover{
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.recipe-list .type{
+  font-size: 1em;
+  color: rgb(255, 153, 153);
+  
+}
+.recipe-list .foodname{
+  font-size: 1.5em;
+  color: rgb(255, 153, 153);
+}
+.recipe-list .foodrecipe{
+  
+  font-size:1.2em;
+  color: rgb(255, 179, 179);
+  
+}
+
+
+.empty{
+  margin: 20px;
+  text-align: center;
+}
+
+form{
+  padding: 20px;
+}
+
+input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: rgb(255, 229, 229, 0.8);
+  color: rgb(255, 153, 153);
+  border: 0;
+}
+input[type='submit']{
+  margin: 10px auto;
+  background: rgb(255, 153, 153);
+  font-weight: bold;
+  color:rgb(230, 0, 92);
+  border-radius: 3px; 
+  border: 0;
+  padding: 8px 20px;
+  display: block;
+}
+
+select{
+  border-color: rgb(230, 0, 92);
+  border-radius: 3px;
+  background-color:rgb(255, 229, 229, 0.8) ;
+  color: rgb(230, 0, 92);
+  width: 300px;
+  height: 25px;
+  font-weight:bold ;
+}
+
+.button-style{
+
+  margin-right: 10px;
+  background: rgb(255, 153, 153);
+  color: rgb(230, 0, 92);
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.button-style:hover{
+ background-color: rgb(204, 242, 255);
+ border:1px solid rgb(230, 0, 92);
+}
+
